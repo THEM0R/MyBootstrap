@@ -5,12 +5,14 @@
 @import "../bootstrap-4.3.1/scss/utilities"
 // buttons
 @import "../bootstrap-4.3.1/scss/buttons"
+// card
+@import "../bootstrap-4.3.1/scss/card"
 // bootstrap end
 
 body
   background: #dddddd
   @include transition(background-color .2s)
-  @extend %grid-column
+  //@extend %grid-column
 
 
 .wrapper
@@ -18,6 +20,7 @@ body
   padding-top: 30px
   padding-bottom: 30px
   background-color: white
+  //@extend body
 
 .col,.col-3,.col-5
   background-color: rgba(0,0,0,.2)
@@ -26,3 +29,20 @@ body
 .example-img
   img
     width: 100%
+
+.example-card-2
+  .col
+    .card
+      margin-right: 30px
+      &:nth-child(5n+5)
+        margin-right: 0
+
+    &:nth-child(5n+5)
+      .card
+        margin-right: 0
+
+.example-card-3
+  .col
+    margin-right: 30px
+    &:nth-child(5n+5)
+      margin-right: 0
