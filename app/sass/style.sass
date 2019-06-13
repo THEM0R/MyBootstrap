@@ -2,14 +2,20 @@
 //@import "../bootstrap-4.3.1/scss/bootstrap"
 @import "../bootstrap-4.3.1/scss/bootstrap-reboot"
 @import "../bootstrap-4.3.1/scss/grid"
-// utilities
-@import "../bootstrap-4.3.1/scss/utilities"
+
 // buttons
 @import "../bootstrap-4.3.1/scss/buttons"
 // card
 @import "../bootstrap-4.3.1/scss/card"
 // navbar
 @import "../bootstrap-4.3.1/scss/navbar"
+
+
+
+
+
+// utilities ставити в низу шоб працювали скрипти
+@import "../bootstrap-4.3.1/scss/utilities"
 // bootstrap end
 
 
@@ -27,9 +33,14 @@ body
   background-color: white
   //@extend body
 
-.col,.col-3,.col-5
-  background-color: rgba(0,0,0,.2)
+.row
+
+
+.col,[class*="col-"]
+  background-color: #eeeeee
   overflow: hidden
+  padding-bottom: 25px
+  padding-top: 25px
 
 .example-img
   img
