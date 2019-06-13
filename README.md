@@ -1,3 +1,5 @@
-# bootstrap 4.3.1 project
+# bootstrap 4.3.1 and my - settings
 
-test project code
+EN | bootstrap 4.3.1 + and my - settings
+
+UK | bootstrap 4.3.1 + і мої - налаштування

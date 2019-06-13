@@ -1,0 +1,28 @@
+// bootstrap
+@import "../bootstrap-4.3.1/scss/bootstrap-reboot"
+@import "../bootstrap-4.3.1/scss/grid"
+// utilities
+@import "../bootstrap-4.3.1/scss/utilities"
+// buttons
+@import "../bootstrap-4.3.1/scss/buttons"
+// bootstrap end
+
+body
+  background: #dddddd
+  @include transition(background-color .2s)
+  @extend %grid-column
+
+
+.wrapper
+  margin: 50px auto
+  padding-top: 30px
+  padding-bottom: 30px
+  background-color: white
+
+.col,.col-3,.col-5
+  background-color: rgba(0,0,0,.2)
+  overflow: hidden
+
+.example-img
+  img
+    width: 100%
