@@ -256,7 +256,11 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns: 12 !default;
+// THE MOR
+
+$grid-container-width: 120px !default; // THE MOR
+
+$grid-columns: 15 !default; // THE MOR old 12
 $grid-gutter-width: 30px !default;
 
 
@@ -752,8 +756,14 @@ $nav-divider-margin-y: $spacer / 2 !default;
 
 // Navbar
 
-$navbar-padding-y: $spacer / 2 !default;
-$navbar-padding-x: $spacer !default;
+// THE MOR
+
+$navbar-padding-y: $spacer / 6 !default;
+
+//$navbar-padding-x: $spacer !default;
+
+$navbar-padding-x: $grid-container-width / 2 !default; // THE MOR
+$navbar-brand-padding-x: $grid-container-width / 4 !default; // THE MOR
 
 $navbar-nav-link-padding-x: .5rem !default;
 
