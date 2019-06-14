@@ -6,6 +6,12 @@
   .container {
     @include make-container();
     @include make-container-max-widths();
+
+    // THE MOR
+
+    padding-left: 60px;
+    padding-right: 60px;
+
   }
 }
 

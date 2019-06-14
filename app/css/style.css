@@ -338,6 +338,9 @@ template {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 345px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 @media (min-width: 576px) {
@@ -360,7 +363,7 @@ template {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1120px;
   }
 }
 
@@ -7325,6 +7328,31 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;
+  max-width: 345px;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1120px;
+  }
 }
 
 .col, [class*="col-"] {
