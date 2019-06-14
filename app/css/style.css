@@ -7631,3 +7631,17 @@ body {
 .example-card-3 .col:nth-child(5n+5) {
   margin-right: 0;
 }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .col, [class*="col-"] {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
